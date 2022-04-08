@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Menu SYSTEM "menu.dtd">
 <Menu>
+  <!-- Chicken Sandwich -->
   <MenuItem>
     <category>
       Sandwiches
@@ -17,6 +18,8 @@
       </regular>
     </price>
   </MenuItem>
+
+  <!-- Roasted Beef -->
   <MenuItem>
     <category>
       Sandwiches
@@ -33,6 +36,8 @@
       </regular>
     </price>
   </MenuItem>
+
+  <!-- Ham Sandwich -->
   <MenuItem>
     <category>
       Sandwiches
@@ -49,6 +54,8 @@
       </regular>
     </price>
   </MenuItem>
+
+  <!-- Roasted Turkey -->
   <MenuItem>
     <category>
       Main Course
@@ -68,6 +75,8 @@
       </half>
     </price>
   </MenuItem>
+
+  <!-- Honey Roast Ham -->
   <MenuItem>
     <category>
       Main Course
@@ -87,6 +96,8 @@
       </half>
     </price>
   </MenuItem>
+
+  <!-- Mac and Cheese -->
   <MenuItem>
     <category>
       Main Course
@@ -103,6 +114,8 @@
       </regular>
     </price>
   </MenuItem>
+
+  <!-- Chicken MArbella -->
   <MenuItem>
     <category>
       Main Course
@@ -119,6 +132,8 @@
       </regular>
     </price>
   </MenuItem>
+
+  <!-- Chocolate Milkshake -->
   <MenuItem>
     <category>
       Milkshakes
@@ -135,22 +150,8 @@
       </regular>
     </price>
   </MenuItem>
-  <MenuItem>
-    <category>
-      Milkshakes
-    </category>
-    <image>
-      img/ChocMilk.webp
-    </image>
-    <description>
-      Chocolate Milkshake
-    </description>
-    <price>
-      <regular>
-        $4
-      </regular>
-    </price>
-  </MenuItem>
+
+  <!-- Vanilla Milkshake -->
   <MenuItem>
     <category>
       Milkshakes
@@ -167,6 +168,8 @@
       </regular>
     </price>
   </MenuItem>
+
+  <!-- Strawberry Milkshake -->
   <MenuItem>
     <category>
       Milkshakes
@@ -183,6 +186,8 @@
       </regular>
     </price>
   </MenuItem>
+
+  <!-- Pomegranate Juice -->
   <MenuItem>
     <category>
       Beverages
@@ -199,6 +204,8 @@
       </regular>
     </price>
   </MenuItem>
+
+  <!-- Apple Cider -->
   <MenuItem>
     <category>
       Beverages
@@ -215,6 +222,8 @@
       </regular>
     </price>
   </MenuItem>
+
+  <!-- Soft Drinks -->
   <MenuItem>
     <category>
       Beverages
@@ -231,6 +240,8 @@
       </regular>
     </price>
   </MenuItem>
+
+  <!-- Water -->
   <MenuItem>
     <category>
       Beverages
