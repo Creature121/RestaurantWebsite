@@ -1,0 +1,9 @@
+<!ELEMENT Menu (MenuItem)*>
+  <!ELEMENT MenuItem (category|image|description|price)*>
+  <!ELEMENT category (#PCDATA)>
+  <!ELEMENT image (#PCDATA)>
+  <!ELEMENT description (#PCDATA)>
+  <!ELEMENT price (regular|full|half)*>
+  <!ELEMENT regular (#PCDATA)>
+  <!ELEMENT full (#PCDATA)>
+  <!ELEMENT half (#PCDATA)>
