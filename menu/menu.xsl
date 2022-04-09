@@ -81,91 +81,60 @@
       </head>
       <body>
         <div class="container">
-          <div class="menu">
-            <h2 class="menu-group-heading">
-              Sandwiches
-            </h2>
-            <xsl:for-each select="Menu/MenuItem">
-              <div class="menu-group">
-                <div class="menu-item">
-                  <img class="menu-item-image" src="{image}" />
-                  <div class="menu-item-text">
-                    <h3 class="menu-item-heading">
-                      <span class="menu-item-name"><xsl:value-of select="description"/></span>
-                      <span class="menu-item-price"><xsl:value-of select="price"/></span>
-                    </h3>
-                    <p class="menu-item-description">
-                      Nunc efficitur felis vel mi efficitur, sed molestie sem scelerisque. Fusce orci risus,
-                      congue eu mauris nec, pretium tincidunt nulla.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </xsl:for-each>
-            <h2 class="menu-group-heading">
-              Main Course
-            </h2>
-            <xsl:for-each select="Menu/MenuItem">
-              <div class="menu-group">
-                <div class="menu-item">
-                  <img class="menu-item-image" src="{image}" />
-                  <div class="menu-item-text">
-                    <h3 class="menu-item-heading">
-                      <span class="menu-item-name"><xsl:value-of select="description"/></span>
-                      <span class="menu-item-price"><xsl:value-of select="price"/></span>
-                    </h3>
-                    <p class="menu-item-description">
-                      Nunc efficitur felis vel mi efficitur, sed molestie sem scelerisque. Fusce orci risus,
-                      congue eu mauris nec, pretium tincidunt nulla.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </xsl:for-each>
-            <h2 class="menu-group-heading">
-              Milkshakes
-            </h2>
-            <xsl:for-each select="Menu/MenuItem">
-              <div class="menu-group">
-                <div class="menu-item">
-                  <img class="menu-item-image" src="{image}" />
-                  <div class="menu-item-text">
-                    <h3 class="menu-item-heading">
-                      <span class="menu-item-name"><xsl:value-of select="description"/></span>
-                      <span class="menu-item-price"><xsl:value-of select="price"/></span>
-                    </h3>
-                    <p class="menu-item-description">
-                      Nunc efficitur felis vel mi efficitur, sed molestie sem scelerisque. Fusce orci risus,
-                      congue eu mauris nec, pretium tincidunt nulla.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </xsl:for-each>
-            <h2 class="menu-group-heading">
-              Beverages
-            </h2>
-            <xsl:for-each select="Menu/MenuItem">
-              <div class="menu-group">
-                <div class="menu-item">
-                  <img class="menu-item-image" src="{image}" />
-                  <div class="menu-item-text">
-                    <h3 class="menu-item-heading">
-                      <span class="menu-item-name"><xsl:value-of select="description"/></span>
-                      <span class="menu-item-price"><xsl:value-of select="price"/></span>
-                    </h3>
-                    <p class="menu-item-description">
-                      Nunc efficitur felis vel mi efficitur, sed molestie sem scelerisque. Fusce orci risus,
-                      congue eu mauris nec, pretium tincidunt nulla.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </xsl:for-each>
-          </div>
+          <h2 class="menu-group-heading">
+            Sandwiches
+          </h2>
+          <xsl:for-each select="Menu/MenuItem[@category='Sandwiches']">
+            <xsl:call-template name="display"/>
+          </xsl:for-each>
+          <h2 class="menu-group-heading">
+          Main Course
+          </h2>
+          <xsl:for-each select="Menu/MenuItem[@category='Main Course']">
+            <xsl:call-template name="display"/>
+          </xsl:for-each>
+          <h2 class="menu-group-heading">
+            Milkshakes
+          </h2>
+          <xsl:for-each select="Menu/MenuItem[@category='Milkshakes']">
+            <xsl:call-template name="display"/>
+          </xsl:for-each>
+          <h2 class="menu-group-heading">
+            Beverages
+          </h2>
+          <xsl:for-each select="Menu/MenuItem[@category='Beverages']">
+            <xsl:call-template name="display"/>
+          </xsl:for-each>
         </div>
       </body>
     </html>
   </xsl:template>
+
+  <xsl:template name="display">
+    <div class="menu-group">
+      <div class="menu-item">
+        <img class="menu-item-image" src="{image}" />
+        <div class="menu-item-text">
+          <h3 class="menu-item-heading">
+            <span class="menu-item-name"><xsl:value-of select="description"/></span>
+            <span class="menu-item-price">
+              <xsl:if test="price/regular">
+                <xsl:value-of select="price/regular"/>
+              </xsl:if>
+              <xsl:if test="not(price/regular)">
+                (Full: <xsl:value-of select="price/full"/>)
+                (Half: <xsl:value-of select="price/half"/>)
+              </xsl:if>
+            </span>
+          </h3>
+          <p class="menu-item-description">
+            Nunc efficitur felis vel mi efficitur, sed molestie sem scelerisque. Fusce orci risus,
+            congue eu mauris nec, pretium tincidunt nulla.
+          </p>
+        </div>
+      </div>
+    </div>
+    </xsl:template>
+
 </xsl:stylesheet>
 

@@ -1,6 +1,7 @@
 <!ELEMENT Menu (MenuItem)*>
-  <!ELEMENT MenuItem (category|image|description|price)*>
-  <!ELEMENT category (#PCDATA)>
+  <!ELEMENT MenuItem (image|description|price)*>
+  <!ATTLIST MenuItem
+    category CDATA #REQUIRED>
   <!ELEMENT image (#PCDATA)>
   <!ELEMENT description (#PCDATA)>
   <!ELEMENT price (regular|full|half)*>

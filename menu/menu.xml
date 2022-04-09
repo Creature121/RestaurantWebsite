@@ -1,12 +1,9 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="menu.xsl" ?>
-<!--<!DOCTYPE Menu SYSTEM "/home/wsluser/WebstormProjects/RestaurantWebsite/menu/menu.dtd">-->
+<!DOCTYPE Menu SYSTEM "menu.dtd">
 <Menu>
   <!-- Chicken Sandwich -->
-  <MenuItem>
-    <category>
-      Sandwiches
-    </category>
+  <MenuItem category="Sandwiches">
     <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/ChickSand.webp</image>
     <description>
       Chicken Sandwich
@@ -19,10 +16,7 @@
   </MenuItem>
 
   <!-- Roasted Beef -->
-  <MenuItem>
-    <category>
-      Sandwiches
-    </category>
+  <MenuItem category="Sandwiches">
     <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/RoastBeef.webp</image>
     <description>
       Roasted Beef
@@ -35,10 +29,7 @@
   </MenuItem>
 
   <!-- Ham Sandwich -->
-  <MenuItem>
-    <category>
-      Sandwiches
-    </category>
+  <MenuItem category="Sandwiches">
     <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/HamSand.webp</image>
     <description>
       Ham Sandwich
@@ -51,10 +42,7 @@
   </MenuItem>
 
   <!-- Roasted Turkey -->
-  <MenuItem>
-    <category>
-      Main Course
-    </category>
+  <MenuItem category="Main Course">
     <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/RoastedTurkey.webp</image>
     <description>
       Roasted Turkey
@@ -70,10 +58,7 @@
   </MenuItem>
 
   <!-- Honey Roast Ham -->
-  <MenuItem>
-    <category>
-      Main Course
-    </category>
+  <MenuItem category="Main Course">
     <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/HoneyRoastHam.jpg</image>
     <description>
       Honey Roast Ham
@@ -89,10 +74,7 @@
   </MenuItem>
 
   <!-- Mac and Cheese -->
-  <MenuItem>
-    <category>
-      Main Course
-    </category>
+  <MenuItem category="Main Course">
     <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/MacCheese.webp</image>
     <description>
       Mac &amp; Cheese
@@ -105,10 +87,7 @@
   </MenuItem>
 
   <!-- Chicken Marbella -->
-  <MenuItem>
-    <category>
-      Main Course
-    </category>
+  <MenuItem category="Main Course">
     <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/ChickMarb.webp</image>
     <description>
       Chicken Marbella
@@ -121,10 +100,7 @@
   </MenuItem>
 
   <!-- Chocolate Milkshake -->
-  <MenuItem>
-    <category>
-      Milkshakes
-    </category>
+  <MenuItem category="Milkshakes">
     <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/ChocMilk.webp</image>
     <description>
       Chocolate Milkshake
@@ -137,10 +113,7 @@
   </MenuItem>
 
   <!-- Vanilla Milkshake -->
-  <MenuItem>
-    <category>
-      Milkshakes
-    </category>
+  <MenuItem category="Milkshakes">
     <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/VanMilk.webp</image>
     <description>
       Vanilla Milkshake
@@ -153,10 +126,7 @@
   </MenuItem>
 
   <!-- Strawberry Milkshake -->
-  <MenuItem>
-    <category>
-      Milkshakes
-    </category>
+  <MenuItem category="Milkshakes">
     <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/StrawMilk.webp</image>
     <description>
       Strawberry Milkshake
@@ -169,10 +139,7 @@
   </MenuItem>
 
   <!-- Pomegranate Juice -->
-  <MenuItem>
-    <category>
-      Beverages
-    </category>
+  <MenuItem category="Beverages">
     <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/PomJuice.webp</image>
     <description>
       Pomegranate Juice
@@ -185,10 +152,7 @@
   </MenuItem>
 
   <!-- Apple Cider -->
-  <MenuItem>
-    <category>
-      Beverages
-    </category>
+  <MenuItem category="Beverages">
     <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/AppCId.webp</image>
     <description>
       Apple Cider
@@ -201,10 +165,7 @@
   </MenuItem>
 
   <!-- Soft Drinks -->
-  <MenuItem>
-    <category>
-      Beverages
-    </category>
+  <MenuItem category="Beverages">
     <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/Soft.webp</image>
     <description>
       Soft Drinks
@@ -217,10 +178,7 @@
   </MenuItem>
 
   <!-- Water -->
-  <MenuItem>
-    <category>
-      Beverages
-    </category>
+  <MenuItem category="Beverages">
     <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/Water.webp</image>
     <description>
       Water
