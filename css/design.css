@@ -1,7 +1,7 @@
 body {
 	background-color : #0B0C10;
 }
-h1, h2, caption {
+h1, caption {
 	color : #66FCF1;
 }
 p, td {
@@ -23,14 +23,14 @@ a{
   margin-right: auto;
   width: 50%;
 }
-.box {
+.container {
         display: flex;
         align-items: center;
         justify-content: center
 }
 img {
-	height: 125px;
-	width: 125px;
+	height: 200px;
+	width: 200px;
 }
 .image {
 	flex-basis: 40%;
