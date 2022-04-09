@@ -113,7 +113,7 @@
   <xsl:template name="display">
     <div class="menu-group">
       <div class="menu-item">
-        <img class="menu-item-image" src="{image}" />
+        <img class="menu-item-image" src="{image}" alt="Picture of Food"/>
         <div class="menu-item-text">
           <h3 class="menu-item-heading">
             <span class="menu-item-name"><xsl:value-of select="description"/></span>

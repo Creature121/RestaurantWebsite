@@ -4,7 +4,7 @@
 <Menu>
   <!-- Chicken Sandwich -->
   <MenuItem category="Sandwiches">
-    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/ChickSand.webp</image>
+    <image>../img/ChickSand.webp</image>
     <description>
       Chicken Sandwich
     </description>
@@ -17,7 +17,7 @@
 
   <!-- Roasted Beef -->
   <MenuItem category="Sandwiches">
-    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/RoastBeef.webp</image>
+    <image>../img/RoastBeef.webp</image>
     <description>
       Roasted Beef
     </description>
@@ -30,7 +30,7 @@
 
   <!-- Ham Sandwich -->
   <MenuItem category="Sandwiches">
-    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/HamSand.webp</image>
+    <image>../img/HamSand.webp</image>
     <description>
       Ham Sandwich
     </description>
@@ -43,7 +43,7 @@
 
   <!-- Roasted Turkey -->
   <MenuItem category="Main Course">
-    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/RoastedTurkey.webp</image>
+    <image>../img/RoastedTurkey.webp</image>
     <description>
       Roasted Turkey
     </description>
@@ -59,7 +59,7 @@
 
   <!-- Honey Roast Ham -->
   <MenuItem category="Main Course">
-    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/HoneyRoastHam.jpg</image>
+    <image>../img/HoneyRoastHam.jpg</image>
     <description>
       Honey Roast Ham
     </description>
@@ -75,7 +75,7 @@
 
   <!-- Mac and Cheese -->
   <MenuItem category="Main Course">
-    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/MacCheese.webp</image>
+    <image>../img/MacCheese.webp</image>
     <description>
       Mac &amp; Cheese
     </description>
@@ -88,7 +88,7 @@
 
   <!-- Chicken Marbella -->
   <MenuItem category="Main Course">
-    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/ChickMarb.webp</image>
+    <image>../img/ChickMarb.webp</image>
     <description>
       Chicken Marbella
     </description>
@@ -101,7 +101,7 @@
 
   <!-- Chocolate Milkshake -->
   <MenuItem category="Milkshakes">
-    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/ChocMilk.webp</image>
+    <image>../img/ChocMilk.webp</image>
     <description>
       Chocolate Milkshake
     </description>
@@ -114,7 +114,7 @@
 
   <!-- Vanilla Milkshake -->
   <MenuItem category="Milkshakes">
-    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/VanMilk.webp</image>
+    <image>../img/VanMilk.webp</image>
     <description>
       Vanilla Milkshake
     </description>
@@ -127,7 +127,7 @@
 
   <!-- Strawberry Milkshake -->
   <MenuItem category="Milkshakes">
-    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/StrawMilk.webp</image>
+    <image>../img/StrawMilk.webp</image>
     <description>
       Strawberry Milkshake
     </description>
@@ -140,7 +140,7 @@
 
   <!-- Pomegranate Juice -->
   <MenuItem category="Beverages">
-    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/PomJuice.webp</image>
+    <image>../img/PomJuice.webp</image>
     <description>
       Pomegranate Juice
     </description>
@@ -153,7 +153,7 @@
 
   <!-- Apple Cider -->
   <MenuItem category="Beverages">
-    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/AppCId.webp</image>
+    <image>../img/AppCId.webp</image>
     <description>
       Apple Cider
     </description>
@@ -166,7 +166,7 @@
 
   <!-- Soft Drinks -->
   <MenuItem category="Beverages">
-    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/Soft.webp</image>
+    <image>../img/Soft.webp</image>
     <description>
       Soft Drinks
     </description>
@@ -179,7 +179,7 @@
 
   <!-- Water -->
   <MenuItem category="Beverages">
-    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/Water.webp</image>
+    <image>../img/Water.webp</image>
     <description>
       Water
     </description>
