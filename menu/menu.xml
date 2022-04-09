@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Menu SYSTEM "menu.dtd">
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="menu.xsl" ?>
+<!--<!DOCTYPE Menu SYSTEM "/home/wsluser/WebstormProjects/RestaurantWebsite/menu/menu.dtd">-->
 <Menu>
   <!-- Chicken Sandwich -->
   <MenuItem>
     <category>
       Sandwiches
     </category>
-    <image>
-      img/ChickSand.webp
-    </image>
+    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/ChickSand.webp</image>
     <description>
       Chicken Sandwich
     </description>
@@ -24,9 +23,7 @@
     <category>
       Sandwiches
     </category>
-    <image>
-      img/RoastBeef.webp
-    </image>
+    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/RoastBeef.webp</image>
     <description>
       Roasted Beef
     </description>
@@ -42,9 +39,7 @@
     <category>
       Sandwiches
     </category>
-    <image>
-      img/HamSand.webp
-    </image>
+    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/HamSand.webp</image>
     <description>
       Ham Sandwich
     </description>
@@ -60,9 +55,7 @@
     <category>
       Main Course
     </category>
-    <image>
-      img/RoastedTurkey.webp
-    </image>
+    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/RoastedTurkey.webp</image>
     <description>
       Roasted Turkey
     </description>
@@ -81,9 +74,7 @@
     <category>
       Main Course
     </category>
-    <image>
-      img/HoneyRoastHam.jpg
-    </image>
+    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/HoneyRoastHam.jpg</image>
     <description>
       Honey Roast Ham
     </description>
@@ -102,9 +93,7 @@
     <category>
       Main Course
     </category>
-    <image>
-      img/MacCheese.webp
-    </image>
+    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/MacCheese.webp</image>
     <description>
       Mac &amp; Cheese
     </description>
@@ -115,14 +104,12 @@
     </price>
   </MenuItem>
 
-  <!-- Chicken MArbella -->
+  <!-- Chicken Marbella -->
   <MenuItem>
     <category>
       Main Course
     </category>
-    <image>
-      img/ChickMarb.webp
-    </image>
+    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/ChickMarb.webp</image>
     <description>
       Chicken Marbella
     </description>
@@ -138,9 +125,7 @@
     <category>
       Milkshakes
     </category>
-    <image>
-      img/ChocMilk.webp
-    </image>
+    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/ChocMilk.webp</image>
     <description>
       Chocolate Milkshake
     </description>
@@ -156,9 +141,7 @@
     <category>
       Milkshakes
     </category>
-    <image>
-      img/VanMilk.webp
-    </image>
+    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/VanMilk.webp</image>
     <description>
       Vanilla Milkshake
     </description>
@@ -174,9 +157,7 @@
     <category>
       Milkshakes
     </category>
-    <image>
-      img/StrawMilk.webp
-    </image>
+    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/StrawMilk.webp</image>
     <description>
       Strawberry Milkshake
     </description>
@@ -192,9 +173,7 @@
     <category>
       Beverages
     </category>
-    <image>
-      img/PomJuice.webp
-    </image>
+    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/PomJuice.webp</image>
     <description>
       Pomegranate Juice
     </description>
@@ -210,9 +189,7 @@
     <category>
       Beverages
     </category>
-    <image>
-      img/AppCId.webp
-    </image>
+    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/AppCId.webp</image>
     <description>
       Apple Cider
     </description>
@@ -228,9 +205,7 @@
     <category>
       Beverages
     </category>
-    <image>
-      img/Soft.webp
-    </image>
+    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/Soft.webp</image>
     <description>
       Soft Drinks
     </description>
@@ -246,9 +221,7 @@
     <category>
       Beverages
     </category>
-    <image>
-      img/Water.webp
-    </image>
+    <image>/home/wsluser/WebstormProjects/RestaurantWebsite/img/Water.webp</image>
     <description>
       Water
     </description>
