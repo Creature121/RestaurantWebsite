@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="menu.xsl" ?>
-<!DOCTYPE Menu SYSTEM "menu.dtd">
+<!DOCTYPE Menu PUBLIC '-//W3C//DTD HTML//EN' 'menu.dtd'>
 <Menu>
   <!-- Chicken Sandwich -->
   <MenuItem category="Sandwiches">

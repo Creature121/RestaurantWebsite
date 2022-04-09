@@ -6,80 +6,20 @@
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link type="text/css" rel="stylesheet" href="../css/design.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/menu.css"/>
         <title>Restaurant Menu</title>
-        <style>
-          .container {
-          max-width: 1200px;
-          margin: 0 auto;
-          padding: 1.5em;
-          }
-
-          .menu {
-          font-family: "Inter", sans-serif;
-          font-size: 14px;
-          }
-
-          .menu-group-heading {
-          margin: 0;
-          padding-bottom: 1em;
-          border-bottom: 2px solid #ccc;
-          }
-
-          .menu-group {
-          display: grid;
-          grid-template-columns: 1fr;
-          gap: 1.5em;
-          padding: 1.5em 0;
-          }
-
-          .menu-item {
-          display: flex;
-          }
-
-          .menu-item-image {
-          width: 80px;
-          height: 80px;
-          flex-shrink: 0;
-          object-fit: cover;
-          margin-right: 1.5em;
-          }
-
-          .menu-item-text {
-          flex-grow: 1;
-          }
-
-          .menu-item-heading {
-          display: flex;
-          justify-content: space-between;
-          margin: 0;
-          }
-
-          .menu-item-name {
-          margin-right: 1.5em;
-          }
-
-          .menu-item-description {
-          line-height: 1.6;
-          }
-
-          @media screen and (min-width: 992px) {
-          .menu {
-          font-size: 16px;
-          }
-
-          .menu-group {
-          grid-template-columns: repeat(2, 1fr);
-          }
-
-          .menu-item-image {
-          width: 125px;
-          height: 125px;
-          }
-          }
-
-        </style>
       </head>
       <body>
+        <table style="font-size:100%">
+          <tr>
+            <td><a href="../Main.html">Main Page</a></td>
+            <td><a href="menu.xml">Menu Page</a></td>
+            <td><a href="../Main.html#OpeningTimes">Opening Times</a></td>
+            <td><a href="../StaffListing.html">Staff Listing Page</a></td>
+            <td><a href="../Menu.html">Old Menu Page</a></td>
+          </tr>
+        </table>
         <div class="container">
           <h2 class="menu-group-heading">
             Sandwiches
