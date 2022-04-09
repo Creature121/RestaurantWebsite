@@ -53,6 +53,10 @@
   line-height: 1.6;
 }
 
+.menu-item-price {
+  color : #C5C6C7;
+}
+
 @media screen and (min-width: 992px) {
   .menu {
     font-size: 16px;
