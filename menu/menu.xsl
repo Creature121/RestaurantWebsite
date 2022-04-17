@@ -11,7 +11,7 @@
         <title>Restaurant Menu</title>
       </head>
       <body>
-        <table style="font-size:100%">
+        <table class="hovertable" style="font-size:100%">
           <tr>
             <td><a href="../index.html">Main Page</a></td>
             <td><a href="menu.xml">Menu Page</a></td>

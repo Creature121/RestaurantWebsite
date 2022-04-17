@@ -28,6 +28,10 @@ a{
         align-items: center;
         justify-content: center
 }
+.hovertable a:hover {
+  background-color: darkturquoise;
+  color: black;
+}
 img {
 	height: 200px;
 	width: 200px;
